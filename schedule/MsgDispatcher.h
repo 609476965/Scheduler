@@ -26,7 +26,6 @@ private:
 	static MsgDispatcher* _msgDispatcher;
 
 	// Restore all the object
-	//vector < Object* > objVec;
 	map < int, Object* > objMap;
 };
 

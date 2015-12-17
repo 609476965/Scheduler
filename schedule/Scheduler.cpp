@@ -17,36 +17,17 @@ Scheduler::~Scheduler()
 
 void Scheduler::registerObject(Object* obj)
 {
-	/*objVec.push_back(obj);*/
 	objMap[obj->getId()] = obj;
 }
 
 void Scheduler::removeObject(Object* obj)
 {
-	/*for (int i = 0; i != objVec.size(); i++)
-	{
-	if (objVec.at(i) == obj)
-	{
-	isChangeObjVec = true;
-	objVec.erase(objVec.begin() + i);
-	break;
-	}
-	}*/
 	isChangeObjMap = true;
 	objMap.erase(obj->getId());
 }
 
 void Scheduler::update(float dt)
 {
-	/*if (objVec.empty())
-	{
-		return;
-	}
-	isChangeObjVec = false;
-	for (int i = 0; !isChangeObjVec && i != objVec.size(); i++)
-	{
-		objVec.at(i)->update(dt);
-	}*/
 	if (objMap.empty())
 	{
 		return;

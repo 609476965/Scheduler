@@ -32,7 +32,6 @@ public:
 private:
 	// To caculate time 
 	float m_delta;
-	//vector < Object* > objVec;
 	map < int, Object* > objMap;
 
 };
