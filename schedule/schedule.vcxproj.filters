@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{f5f31bb8-3d96-45be-b782-c45210794839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension">
+      <UniqueIdentifier>{7f911431-e4e9-4aba-b372-aa6d21a8ab4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDispatcher.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgDispatcher.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
