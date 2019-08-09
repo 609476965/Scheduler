@@ -33,6 +33,9 @@ void Timer::update(float dt)
 	int _periority = selector.front()->periority;
 	for (int index = 0; !isSeltChange && index != selector.size(); index++)
 	{
+		if (selector.size() <= 0) {
+			break;
+		}
 		SELECTOR* selt = selector.at(index);
 		if (selt->periority != _periority)
 		{

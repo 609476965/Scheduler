@@ -36,6 +36,8 @@ void Scheduler::update(float dt)
 	for (auto it = objMap.begin(); !isChangeObjMap && it != objMap.end(); it++)
 	{
 		it->second->update(dt);
+		if (isChangeObjMap)
+			break;
 	}
 }
 
